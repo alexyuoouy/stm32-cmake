@@ -1,7 +1,7 @@
 # stm32-cmake
 [中文页](README_zh.md) |
 
-An easy template of stm32 cmake project
+A simple stm32 cmake project template.
 * ## Main process
   * set compiler path and flags.
   * set stm32 chip type.
