@@ -12,7 +12,7 @@
 
 * ## 怎样使用？
   * 首先在stm32-cmake目录下创建 "src" 目录， 将原有的工程中所有文件拷贝到 "src" 目录下。
-  * 修改cmake/gcc-arm-none-eabi.cmake 中的STM32_TOOLCHAIN_PATH变量，或者在执行cmake命令的时候天剑 -DSTM32_TOOLCHAIN_PATH=/your/arm/toolchain/path 选项。
+  * 修改cmake/gcc-arm-none-eabi.cmake 中的STM32_TOOLCHAIN_PATH变量，或者在执行cmake命令的时候添加 -DSTM32_TOOLCHAIN_PATH=/your/arm/toolchain/path 选项。
   * 修改cmake/stm32.cmake 文件中的芯片类型和一些与芯片相关的编译选项。
   * 修改cmake/stm32-gcc-flags.cmake 文件中的ASM C CPP 编译器的编译选项。
   * 按需要修改cmake/stm32-gcc-postbuild.cmake 文件中的处理命令。
