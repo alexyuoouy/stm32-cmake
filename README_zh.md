@@ -23,12 +23,12 @@
   cmake ..
   make
   ```
-  * 可以在cmake命令指定 STM32_TOOLCHAIN_PATH 和 CMAKE_BUILD_TYPE:
+  * 在cmake命令中指定 STM32_TOOLCHAIN_PATH 和 CMAKE_BUILD_TYPE:
   ```
   cmake -DSTM32_TOOLCHAIN_PATH=/your/arm/toolchain/path -DCMAKE_BUILD_TYPE=Debug ..
   make
   ```
-  * 可以在编译时显示编译细节来调试cmake
+  * 在编译时显示编译细节来调试cmake:
   ```
   cmake ..
   make VERBOSE=1
