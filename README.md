@@ -24,12 +24,12 @@ A simple stm32 cmake project template.
   cmake ..
   make
   ```
-  * Or you want to modify STM32_TOOLCHAIN_PATH and CMAKE_BUILD_TYPE in cmake command:
+  * Maybe you want to modify STM32_TOOLCHAIN_PATH and CMAKE_BUILD_TYPE in cmake command:
   ```
   cmake -DSTM32_TOOLCHAIN_PATH=/your/arm/toolchain/path -DCMAKE_BUILD_TYPE=Debug ..
   make
   ```
-  * Or you want to show build detail:
+  * Maybe you want to show build detail:
   ```
   cmake ..
   make VERBOSE=1
